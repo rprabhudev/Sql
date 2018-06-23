@@ -1,0 +1,27 @@
+create - to create a database 
+
+create dabase <database name>;
+create table <table table name> (
+column1 datatype,
+column2 datatype,...
+);
+
+insert - to populate a database 
+
+inster into table <table name>(column1 , column2, ..., columnN)
+values(value1, value2 ..., valueN);
+
+select - to select the database
+
+use <database name>;
+select from <table name>;
+
+update - to update the exisiting database
+
+update <table name>
+SET column1=value1 Where [condion];
+ 
+delete - to delete some content in the database
+
+Delete from <table name>
+Where [condition]; 
